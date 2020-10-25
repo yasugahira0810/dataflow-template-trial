@@ -1,0 +1,89 @@
+{
+  'BigQuery Schema': [
+    {
+      "mode": "NULLABLE",
+      "name": "Segment",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Country",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Product",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Discount_Band",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Units_Sold",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Manufacturing_Price",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Sale_Price",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Gross_Sales",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Discounts",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "_Sales",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "COGS",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Profit",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Date",
+      "type": "DATE"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Month_Number",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Month_Name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "Year",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "string_field_16",
+      "type": "STRING"
+    }
+  ]
+}
