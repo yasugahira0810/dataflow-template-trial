@@ -18,7 +18,12 @@ function transform(line) {
   obj.Month_Number = values[13];
   obj.Month_Name = values[14];
   obj.Year = values[15];
-  obj.string_field_16 = values[16];
+  var dt = new Date();
+  var insert_day = dt.getFullYear() + '-' + (dt.getMonth()+1) + '-' + dt.getDate();
+  obj.string_field_16 = insert_day;
   var jsonString = JSON.stringify(obj);
+  if (obj.Country == "Germany") {
+    return null
+  }
   return jsonString;
 }
